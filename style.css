@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainCon{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.contaner{
+    display: flex;
+    padding: 30px 0px 0px 40px;
+    flex-direction: column;
+    background-color: aquamarine;
+   width: 30%;
+   height: 200px;
+   margin: auto;
+   border-radius: 10px;
+   position: relative;
+   overflow: hidden;
+}
+.contaner .todo h2{
+margin-bottom: 5px;
+}
+.contaner .inp{
+    margin-bottom: 10px;
+
+}
+.contaner .inp input{
+padding: 5px 20px ;
+border-radius: 10px;
+outline: none;
+border: 1px solid black;
+}
+.contaner .inp button{
+padding: 5px 20px ;
+border-radius: 10px;
+outline: none;
+border: transparent;
+cursor: pointer;
+background-color: rgb(27, 171, 233);
+color: white;
+}
+.contaner .inp button:hover{
+    border: 1px solid  rgb(27, 171, 233);
+}
+.contaner .text li {
+margin-top: 5px;
+list-style: none;
+cursor: pointer;
+
+}
+.contaner .text li input{
+   margin-right: 5px;
+}
+.contaner .text .check {
+text-decoration: line-through;
+}
+.contaner .text li span{
+   position: absolute;
+   right: 20px;
+   font-size: 20px;
+   height: 20px;
+   width: 20px;
+   border-radius: 50px;
+   text-align: center;
+}
+.contaner .text li span:hover{
+    background-color: aliceblue;
+    
+}
